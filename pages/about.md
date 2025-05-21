@@ -78,7 +78,7 @@ Add new data and explore:
     - noindex
     - title, etc
 - `bundle exec jekyll s`
-- Configure stuff! Mess around!
+- Configure stuff ([theme.yml](https://collectionbuilder.github.io/cb-docs/docs/theme/), [configs](https://collectionbuilder.github.io/cb-docs/docs/customization/))! Mess around!
 
 Version control:
 
@@ -90,9 +90,10 @@ Version control:
 Introduction to narrative writing using markdown and includes in demo collection.
 
 - writing on the web concepts (headings, shorter, links, media)
-- markdown concepts
+- markdown concepts ([Write Markdown Everywhere](https://evanwill.github.io/markdown-everywhere/))
 - markdown details
 - using includes
+- [Add a page](https://collectionbuilder.github.io/cb-docs/docs/pages/)
 
 ## Computation concepts with Liquid
 
