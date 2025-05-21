@@ -12,14 +12,14 @@ credits: true
 
 {% include feature/nav-menu.html sections="Icebreaker;First Demo Collection;Second Demo Collection" %}
 
-## DS Camp 2025 Outline
+## Digital Scholarship Camp 2025 Outline
 
 ## Icebreaker
 
 - CollectionBuilder-Sheets collaborative collection
     - [ds_camp_demo Sheet](https://docs.google.com/spreadsheets/d/1zaMXOFtCO5boHdN7UP8QNfjndoEaTzsG6RmoZNVoJGQ/edit?gid=0#gid=0)
     - In the spreadsheet describe a digital collection Item you are interested in (feel free to choose from [Digital Collections](https://www.lib.uidaho.edu/digital/home/collections.html) ([Search](https://digital.lib.uidaho.edu/search)) or [CDIL project](https://cdil.lib.uidaho.edu/projects/) or anything else!).
-- Intros: your collection Item, your name, academic background and interests, project idea, and experience with digital projects.
+- Intros: your name, your collection Item, academic background and interests, project idea(s), and experience with digital projects.
 - See also:
     - [LIS Best Meal](https://collectionbuilder-lis.github.io/best-meal/)
     - [Digital Exhibit Lab](https://github.com/learn-static/digital-exhibit-lab)
