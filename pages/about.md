@@ -53,6 +53,10 @@ Try it on your local machine:
 - `bundle exec jekyll s`
 - Ctrl + C
 
+Static vs. Dynamic web:
+
+- [Static Web Methodology as a Sustainable Approach to Digital Humanities Projects](https://journal.code4lib.org/articles/18372)
+
 Orientation to development environment:
 
 - Git
