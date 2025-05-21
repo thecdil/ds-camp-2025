@@ -10,39 +10,103 @@ credits: true
 
 {% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
 
-## About CollectionBuilder-Sheets
+{% include feature/nav-menu.html sections="Icebreaker;First Demo Collection;Second Demo Collection" %}
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+## DS Camp 2025 Outline
 
-Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
-This enables active collaboration to prototype collections with minimal set up.
+## Icebreaker
 
-<button class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#cbSetUpModal">
-    <svg class="bi icon-sprite" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
-        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
-    </svg> 
-    Change the Metadata!
-</button>
-{:.text-center}
+- CollectionBuilder-Sheets collaborative collection
+- [ds_camp_demo Sheet](https://docs.google.com/spreadsheets/d/1zaMXOFtCO5boHdN7UP8QNfjndoEaTzsG6RmoZNVoJGQ/edit?gid=0#gid=0)
+- See also:
+    - [Digital Exhibit Lab](https://github.com/learn-static/digital-exhibit-lab)
+    - [LIS Best Meal](https://collectionbuilder-lis.github.io/best-meal/)
+    - [Digital Dramaturgy](https://github.com/digitaldramaturgy/digitaldramaturgy.github.io)
 
-## Create your own Metadata
+## First Demo Collection
 
-To create metadata compatible with this CollectionBuilder-Sheets instance the best way to get started is to make of copy of our template in Google Drive:
+### On GitHub
 
-[CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing){:.btn .btn-outline-primary}
-{:.text-center}
+- GitHub orientation
+- [CB-Docs](https://collectionbuilder.github.io/cb-docs/)
+- [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv)
+- [Generate from template](https://collectionbuilder.github.io/cb-docs/docs/repository/)
+- Look around repository
+- Edit "README.md" (Markdown)
+- Edit "_config.yml"
+    - url
+    - baseurl
+- [Activate GitHub Pages with Action](https://collectionbuilder.github.io/cb-docs/docs/deploy/actions/)
+- View your demo site!
 
-Alternatively, you can [download the template CSV]({{ '/assets/metadata-template.csv' | relative_url }}) and work on your local machine.
-We suggest editing your CSV using [LibreOffice](https://www.libreoffice.org/) Calc, [OpenRefine](https://openrefine.org/), or Google Sheets (and do not suggest using Excel, since Excel's CSV output is not correctly formatted).
+### On local
 
-Describe your items in your copy of the template, following the [Metadata Guidelines]({{ '/metadata.html' | relative_url }}). 
+Get set up:
 
-Once you have items added you can test your metadata by clicking the "Change the Metadata" button above.
+- [Git clone](https://collectionbuilder.github.io/cb-docs/docs/repository/clone/) (GitHub Desktop or VS Code)
+- Open with VS Code
+- Open Terminal in VS Code
+- `bundle install`
+- `bundle exec jekyll s`
+- Ctrl + C
 
-## Learn More
+Orientation to development environment:
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+- Git
+- GitHub Desktop
+- VS Code
+- Ruby
+- Jekyll
+- CollectionBuilder
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-Featured image by [JJ Ying on Unsplash](https://unsplash.com/photos/WmnsGyaFnCQ).
+## Second Demo Collection
+
+### On local
+
+Add new data and explore:
+
+- Download demo data: 
+    - [psychiana_cbdemo_csv.csv]({{ '/objects/psychiana_cbdemo_csv.csv' | relative_url }})
+    - [sbw.csv]({{ '/objects/sbw.csv' | relative_url }})
+    - [postcards.csv]({{ '/objects/postcards.csv' | relative_url }})
+- Add file to repository "_data"
+- Edit "_config.yml"
+    - metadata
+    - noindex
+    - title, etc
+- `bundle exec jekyll s`
+- Configure stuff! Mess around!
+
+Version control:
+
+- Commit.
+- Push.
+
+## Writing in markdown
+
+Introduction to narrative writing using markdown and includes in demo collection.
+
+- writing on the web concepts (headings, shorter, links, media)
+- markdown concepts
+- markdown details
+- using includes
+
+## Computation concepts with Liquid
+
+Introduction to fundamentals of computation as represented in Liquid to create basic features in CB (create and display a list of filtered items). 
+
+- Liquid intro
+- Liquid variables
+- Liquid for loop
+- Liquid conditionals
+
+## Working with Spreadsheets
+
+Introduction to CSVs, Sheets, and the data used in CB.
+
+## Working with Files
+
+- extensions
+- filenaming
+- formats
+- sizes, preservation
