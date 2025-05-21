@@ -17,10 +17,12 @@ credits: true
 ## Icebreaker
 
 - CollectionBuilder-Sheets collaborative collection
-- [ds_camp_demo Sheet](https://docs.google.com/spreadsheets/d/1zaMXOFtCO5boHdN7UP8QNfjndoEaTzsG6RmoZNVoJGQ/edit?gid=0#gid=0)
+    - [ds_camp_demo Sheet](https://docs.google.com/spreadsheets/d/1zaMXOFtCO5boHdN7UP8QNfjndoEaTzsG6RmoZNVoJGQ/edit?gid=0#gid=0)
+    - In the spreadsheet describe a random digital collection Item you are interested in (feel free to choose from [Digital Collections](https://www.lib.uidaho.edu/digital/home/collections.html) ([Search](https://digital.lib.uidaho.edu/search)) or [CDIL project](https://cdil.lib.uidaho.edu/projects/) or anything else!).
+- Intros: your random Item, your name, academic background and interests, project idea, and experience with digital projects.
 - See also:
-    - [Digital Exhibit Lab](https://github.com/learn-static/digital-exhibit-lab)
     - [LIS Best Meal](https://collectionbuilder-lis.github.io/best-meal/)
+    - [Digital Exhibit Lab](https://github.com/learn-static/digital-exhibit-lab)
     - [Digital Dramaturgy](https://github.com/digitaldramaturgy/digitaldramaturgy.github.io)
 
 ## First Demo Collection
@@ -32,8 +34,8 @@ credits: true
 - [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv)
 - [Generate from template](https://collectionbuilder.github.io/cb-docs/docs/repository/)
 - Look around repository
-- Edit "README.md" (Markdown)
-- Edit "_config.yml"
+- Edit "README.md" (Markdown, Commit)
+- Edit "_config.yml" (YAML, Commit)
     - url
     - baseurl
 - [Activate GitHub Pages with Action](https://collectionbuilder.github.io/cb-docs/docs/deploy/actions/)
@@ -41,11 +43,11 @@ credits: true
 
 ### On local
 
-Get set up:
+Try it on your local machine:
 
-- [Git clone](https://collectionbuilder.github.io/cb-docs/docs/repository/clone/) (GitHub Desktop or VS Code)
-- Open with VS Code
-- Open Terminal in VS Code
+- [Git clone](https://collectionbuilder.github.io/cb-docs/docs/repository/clone/) (using VS Code, can also use GitHub Desktop or terminal)
+- Open with VS Code (check settings and extensions)
+- Open Terminal in VS Code (check terminal set up on windows)
 - `bundle install`
 - `bundle exec jekyll s`
 - Ctrl + C
@@ -53,7 +55,7 @@ Get set up:
 Orientation to development environment:
 
 - Git
-- GitHub Desktop
+- (GitHub Desktop, optional)
 - VS Code
 - Ruby
 - Jekyll
